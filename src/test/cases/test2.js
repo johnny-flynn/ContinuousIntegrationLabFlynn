@@ -12,7 +12,7 @@ describe('GET - /', async () => {
         // check the HTTP status code
         expect(response.statusCode).to.equal(200)
         // check the raw text returned
-        expect(response.text).to.equal('Task_2 Passed!')
+        expect(response.text).to.equal('Hello World!')
     })
 
 })
